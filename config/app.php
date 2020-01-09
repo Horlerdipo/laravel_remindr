@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Weatherley'),
 
     /*
     |--------------------------------------------------------------------------
@@ -28,6 +28,7 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    "log"=>"errorlog",
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
