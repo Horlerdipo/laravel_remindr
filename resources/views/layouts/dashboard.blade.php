@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Remindr - @yield('title')</title>
+  <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Remindr<sup>1</sup></div>
+        <div class="sidebar-brand-text mx-3">Weatherley<sup>1</sup></div>
       </a>
 
       <!-- Divider -->
