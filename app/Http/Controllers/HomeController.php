@@ -234,20 +234,20 @@ class HomeController extends Controller
 
     public function time($id){
         $current=Carbon::now();
-        $time=Remindr::find($id)->toArray();
-        $time=Carbon::create($time['time']);
-        $add_time= $current->addMinutes(15);    
-        $sub_time=$current->subMinutes(15);  
+        // $time=Remindr::find($id)->toArray();
+        // $time=Carbon::create($time['time']);
+        // $add_time= $current->addMinutes(15);    
+        // $sub_time=$current->subMinutes(15);  
         
-        if($time->greaterThan($sub_time)){
+        // if($time->greaterThan($sub_time)){
 
-            echo $time.'is greater than'.$sub_time;
-        }
+        //     echo $time.'is greater than'.$sub_time;
+        // }
 
-        if($time->lessThan($add_time)){
+        // if($time->lessThan($add_time)){
 
-            echo $time.'is less than'.$add_time;
-        }
+        //     echo $time.'is less than'.$add_time;
+        // }
 
 
 
