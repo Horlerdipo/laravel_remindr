@@ -93,7 +93,7 @@ class SendWeatherUpdate extends Command
                     $response = $client->request('GET','/api/v1/sms/create', [
                         'query'=>[
                             'api_token'=>'8iJwYV31wRVi7ORBFHbVizXLFg2mALS3EW8DJR9nIfoCYj9zAcTJMv2mwNSt',
-                            'from'=>'Remindr',
+                            'from'=>'Weatherly',
                             'to'=>$user['number'],
                             'body'=>$report,
                             'dnd'=>'2'
