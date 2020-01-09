@@ -234,6 +234,7 @@ class HomeController extends Controller
 
     public function time($id){
         $current=Carbon::now();
+        echo $current;
         // $time=Remindr::find($id)->toArray();
         // $time=Carbon::create($time['time']);
         // $add_time= $current->addMinutes(15);    
